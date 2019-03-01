@@ -1,0 +1,99 @@
+.container{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+
+}
+.montanha{
+margin: 30px;
+}
+.central{
+background-color: white;
+width: 260px;
+height: 450px;
+border-radius: 8px;
+text-align: center;
+transition:1s;
+}
+.central:hover{
+box-shadow: 0 0 .7em black;
+transition:1s;
+}
+body{
+background-color: #f3f3f3;
+}
+/* ESTILOS LETRAS */ 
+p{
+color: #bbb;
+font-size: 10px;
+margin: 20px;
+}
+h4{
+font-family: 'Cormorant Garamond', serif;
+font-size: 22px;
+}
+/* FIM ESTILOS LETRAS */ 
+
+/* BOTOES */
+button{
+border-radius: 30px;
+width: 120px;
+height: 30px;
+border: none;
+color: white;
+margin-top: 30px;
+transition:1s;
+
+}
+
+button:hover{
+box-shadow: 0px 1px 6px black;
+transition: 1s;
+}
+.btn-praia{
+background-color: #DAA520;
+}
+.btn-montanha{
+background-color: #9370DB;
+}
+.btn-forest{
+background-color: #5F9EA0;
+}
+/* FIM BOTOES */ 
+
+/*IMAGENS*/
+img{
+padding-top: 40px;
+}
+
+.elipses{
+
+margin-top: 20px;
+height: 30px;
+width: 100%;
+}
+.elipses span{
+display: inline-block;
+background-color: grey;
+margin-top: 20px;
+height: 5px;
+width: 5px;
+border-radius: 50%;
+margin: 3px;
+
+}
+.elipses .atual{
+background-color: black;
+}
+
+@media (max-width: 600px){
+
+.montanha{margin: 30px 0px;}
+.container{  display:block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  		
+}
